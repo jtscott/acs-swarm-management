@@ -7,7 +7,7 @@ These scripts assume you deployed ACS with a private key that has a password. Th
 The scripts assume execution in the following order
 - swarm_storage_manager.sh - creates the dependencies to mount AFS
 - mount_persitent_storage.sh - copies credentials to swarm agents
-- host_health.sh - simple script that checks all agents for connectivity via a healtheck text file.
+- host_health.sh - simple script that checks all agents for connectivity via a healthcheck text file.
 
 # Using
 After mounting the share you should be able to deploy containers with volume mappings to /mnt/persistent
