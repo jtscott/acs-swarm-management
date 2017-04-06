@@ -1,4 +1,4 @@
-# Azure Container Services (ACS) & Azure File Server (AFS) Scripts
+# Azure Container Service (ACS) & Azure File Service (AFS) Scripts
 Scripts to mount AFS on all Docker Swarm agents instead of using a volume plugin.
 ## Assumptions
 These scripts assume you deployed ACS with a private key that has a password. There are parts of the scripts that create separate keys for looping through swarm agents quickly.
